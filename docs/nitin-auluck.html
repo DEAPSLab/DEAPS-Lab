@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Nitin Auluck - POEMS Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .amazon-btn { display:inline-block; background:#facc15; color:#000; font-weight:600; padding:0.5rem 1.5rem; border-radius:0.375rem; transition:background 0.2s; box-shadow:0 2px 4px rgba(0,0,0,0.15); }
+        .amazon-btn:hover { background:#eab308; }
+        .amazon-btn-secondary { display:inline-block; background:#e5e7eb; color:#1f2937; font-weight:600; padding:0.5rem 1.5rem; border-radius:0.375rem; border:1px solid #d1d5db; transition:background 0.2s; }
+        .amazon-btn-secondary:hover { background:#d1d5db; }
+        .nav-link { background:#0ea5e9; color:#fff; padding:0.5rem 0.75rem; font-size:1rem; font-weight:500; border-radius:0.375rem; transition:background 0.2s; display:inline-block; }
+        .nav-link:hover { background:#0284c7; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="bg-gray-800 text-white text-xs py-2">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div>Welcome to POEMS Lab - Parallel, Operating, Edge, and Mobile Systems Lab</div>
+            <div class="flex space-x-4">
+                <a href="contact.html" class="bg-sky-500 text-white px-2 py-1 rounded hover:bg-sky-600">Contact Us</a>
+                <a href="opportunities.html" class="bg-sky-500 text-white px-2 py-1 rounded hover:bg-sky-600">Join Our Team</a>
+            </div>
+        </div>
+    </div>
+    <nav class="bg-sky-400 shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <img src="static/images/logo.svg" alt="POEMS Lab Logo" class="w-8 h-8" />
+                    <span class="font-bold text-xl text-white">POEMSLab</span>
+                </a>
+                <div class="flex-1 max-w-2xl mx-8">
+                    <div class="relative">
+                        <input type="text" placeholder="Search research, publications, members..." class="w-full py-2 px-4 rounded-md border-2 border-yellow-400 focus:outline-none focus:border-yellow-500">
+                        <button class="absolute right-0 top-0 h-full px-4 bg-yellow-400 hover:bg-yellow-500 rounded-r-md">
+                            <svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4 flex-wrap">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                    <a href="research.html" class="nav-link">Research</a>
+                    <a href="members.html" class="nav-link">Team</a>
+                    <a href="https://www.google.com/maps/place/Indian+Institute+Of+Technology-Ropar" target="_blank" class="nav-link flex items-center">Location</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-sky-400 border-t border-sky-300">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex items-center space-x-4 py-2 flex-wrap">
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="nitin-auluck.html" class="nav-link">Prof. Nitin Auluck</a>
+                    <a href="opportunities.html" class="nav-link">Opportunities</a>
+                    <a href="news-events.html" class="nav-link">News &amp; Events</a>
+                    <a href="resources.html" class="nav-link">Resources</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="alumni.html" class="nav-link">Alumni</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+<!-- Hero Section -->
+<div class="bg-gradient-to-r from-blue-900 to-gray-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl font-bold mb-4">Dr. <span class="text-yellow-400">Nitin Auluck</span></h1>
+                <p class="text-2xl text-blue-200 mb-6">Professor @ CSE, IIT Ropar</p>
+                <p class="text-lg text-gray-300 mb-8">
+                    Leading researcher in distributed systems, fog/edge computing, and sustainable technology solutions 
+                    for health, agriculture, and smart mobility.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="mailto:nitin@iitrpr.ac.in" class="amazon-btn">Contact</a>
+                    <a href="https://scholar.google.co.in/citations?user=pFiwhAIAAAAJ" target="_blank" class="amazon-btn-secondary">Google Scholar</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <img src="static/images/Nitin.jpg" alt="Dr. Nitin Auluck" class="w-80 h-80 rounded-lg mx-auto mb-6 object-cover shadow-2xl">
+                <div class="flex justify-center space-x-4">
+                    <a href="https://twitter.com/auluck_nitin" target="_blank" class="text-blue-400 hover:text-blue-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="https://in.linkedin.com/in/nitin-auluck" target="_blank" class="text-blue-400 hover:text-blue-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.researchgate.net/profile/Nitin-Auluck" target="_blank" class="text-blue-400 hover:text-blue-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 00-.112.437 8.365 8.365 0 00-.078.53 9.928 9.928 0 00-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.121 0 000 1.535c0 .388.002.718.01.99.007.272.018.489.035.65.016.161.04.277.07.35.030.072.065.12.106.143.041.024.1.035.18.035.08 0 .148-.014.204-.04.056-.027.099-.065.129-.115.029-.05.05-.110.06-.18.012-.07.017-.148.017-.235 0-.087-.005-.18-.017-.28a4.61 4.61 0 00-.06-.335 2.327 2.327 0 00-.129-.344 1.053 1.053 0 00-.204-.28 0.769 0.769 0 00-.18-.143c-.041-.024-.1-.035-.18-.035-.08 0-.139.011-.18.035a0.769 0.769 0 00-.204.143 1.053 1.053 0 00-.129.28 2.327 2.327 0 00-.06.344c-.012.1-.017.193-.017.28 0 .087.005.165.017.235.01.07.031.13.06.18.030.05.073.088.129.115.056.026.124.04.204.04.08 0 .139-.011.18-.035.041-.023.076-.071.106-.143.030-.073.054-.189.07-.35.017-.161.028-.378.035-.65.008-.272.01-.602.01-.99a31.121 31.121 0 000-1.535c0-.395.002-.734.013-1.016.01-.282.028-.545.05-.727.023-.182.05-.346.078-.53.029-.184.067-.346.112-.437.243-.744.65-1.303 1.213-1.68C18.078.19 18.768 0 19.586 0z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Professional Details -->
+<div class="max-w-7xl mx-auto px-4 py-16">
+    <!-- Current Position -->
+    <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Current Position</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 mb-3">Professor</h3>
+                <p class="text-gray-700 mb-2"><strong>Department:</strong> Computer Science and Engineering</p>
+                <p class="text-gray-700 mb-2"><strong>Institution:</strong> Indian Institute of Technology (IIT) Ropar</p>
+                <p class="text-gray-700 mb-2"><strong>Location:</strong> Punjab, India</p>
+                <p class="text-gray-700"><strong>Since:</strong> June 2010</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 mb-3">Contact Information</h3>
+                <p class="text-gray-700 mb-2"><strong>Email:</strong> <a href="mailto:nitin@iitrpr.ac.in" class="text-blue-600 hover:underline">nitin@iitrpr.ac.in</a></p>
+                <p class="text-gray-700 mb-2"><strong>Alt Email:</strong> <a href="mailto:nauluck@gmail.com" class="text-blue-600 hover:underline">nauluck@gmail.com</a></p>
+                <p class="text-gray-700 mb-2"><strong>Phone:</strong> 01881-242136</p>
+                <p class="text-gray-700"><strong>Office:</strong> Room 112/226, CSE Dept, IIT Ropar, Nangal Road, Rupnagar, Punjab 140001</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Focus -->
+    <div class="bg-gray-100 rounded-lg p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Research Focus</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Primary Areas</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Distributed Systems</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Scheduling & Resource Management</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Fog/Edge Computing</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Sustainability in Computing</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Application Domains</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Digital Healthcare</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Smart Agriculture</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Smart Mobility</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Real-world Applications</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Education</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="border-l-4 border-blue-600 pl-6">
+                <h3 class="font-semibold text-xl mb-2">PhD in Computer Science and Engineering</h3>
+                <p class="text-gray-700 font-medium">University of Cincinnati, USA</p>
+                <p class="text-sm text-gray-500 mb-2">1999 - 2005</p>
+                <p class="text-sm text-gray-600">Specialized in distributed systems and parallel computing</p>
+            </div>
+            <div class="border-l-4 border-blue-600 pl-6">
+                <h3 class="font-semibold text-xl mb-2">B.Tech in Electrical and Electronics Engineering</h3>
+                <p class="text-gray-700 font-medium">Poojya Dodappa Appa College of Engineering, Gulbarga</p>
+                <p class="text-sm text-gray-500 mb-2">1994 - 1998</p>
+                <p class="text-sm text-gray-600">Foundation in engineering principles and systems</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Career Progression -->
+    <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Career Progression at IIT Ropar</h2>
+        <div class="space-y-6">
+            <div class="border-l-4 border-green-600 pl-6">
+                <h3 class="font-semibold text-xl mb-2">Professor</h3>
+                <p class="text-gray-700 font-medium">Department of Computer Science and Engineering</p>
+                <p class="text-sm text-gray-500">2024 - Present</p>
+            </div>
+            <div class="border-l-4 border-green-600 pl-6">
+                <h3 class="font-semibold text-xl mb-2">Associate Professor</h3>
+                <p class="text-gray-700 font-medium">Department of Computer Science and Engineering</p>
+                <p class="text-sm text-gray-500">2016 - 2024</p>
+            </div>
+            <div class="border-l-4 border-green-600 pl-6">
+                <h3 class="font-semibold text-xl mb-2">Assistant Professor</h3>
+                <p class="text-gray-700 font-medium">Department of Computer Science and Engineering</p>
+                <p class="text-sm text-gray-500">2010 - 2015</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visiting Faculty Positions -->
+    <div class="bg-blue-50 rounded-lg p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Visiting Faculty Positions</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+                <h3 class="font-semibold text-lg text-blue-600 mb-2">Cardiff University, UK</h3>
+                <p class="text-gray-700 text-sm mb-2">School of Computer Science & Informatics</p>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• June - July, 2025</li>
+                    <li>• May - June, 2022</li>
+                    <li>• May - July, 2017</li>
+                    <li>• May & October, 2016</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+                <h3 class="font-semibold text-lg text-blue-600 mb-2">Aalto University, Finland</h3>
+                <p class="text-gray-700 text-sm mb-2">Department of Information and Communication Engineering</p>
+                <p class="text-sm text-gray-600">June - July, 2024</p>
+            </div>
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+                <h3 class="font-semibold text-lg text-blue-600 mb-2">Dalhousie University, Canada</h3>
+                <p class="text-gray-700 text-sm mb-2">Faculty of Computer Science</p>
+                <p class="text-sm text-gray-600">July, 2023</p>
+            </div>
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+                <h3 class="font-semibold text-lg text-blue-600 mb-2">Imperial College London, UK</h3>
+                <p class="text-gray-700 text-sm mb-2">Department of Computing</p>
+                <p class="text-sm text-gray-600">March, 2011</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Administrative Positions -->
+    <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Administrative Positions at IIT Ropar</h2>
+        <div class="space-y-4">
+            <div class="border-l-4 border-red-600 pl-6">
+                <h3 class="font-semibold text-lg">Head, Department of CSE</h3>
+                <p class="text-sm text-gray-600">2025 - Present | November 2020 - June 2022 | 2012 - 2015</p>
+            </div>
+            <div class="border-l-4 border-red-600 pl-6">
+                <h3 class="font-semibold text-lg">Head, Information Technology</h3>
+                <p class="text-sm text-gray-600">2012 - 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Editorial Roles -->
+    <div class="bg-blue-50 rounded-lg p-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Editorial & Professional Roles</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-600 mb-3">Editor</h3>
+                <p class="text-gray-700">Wiley's Concurrency and Computation: Practice and Experience (CCPE)</p>
+            </div>
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-600 mb-3">Associate Editor</h3>
+                <p class="text-gray-700">IEEE Transactions on Services Computing (IEEE TSC)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Media & Links -->
+    <div class="bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Connect & Follow</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <a href="https://twitter.com/auluck_nitin" target="_blank" class="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+                <svg class="w-8 h-8 text-blue-500 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                </svg>
+                <div>
+                    <div class="font-semibold">Twitter</div>
+                    <div class="text-sm text-gray-600">@auluck_nitin</div>
+                </div>
+            </a>
+            
+            <a href="https://in.linkedin.com/in/nitin-auluck" target="_blank" class="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+                <svg class="w-8 h-8 text-blue-700 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <div>
+                    <div class="font-semibold">LinkedIn</div>
+                    <div class="text-sm text-gray-600">Professional Profile</div>
+                </div>
+            </a>
+            
+            <a href="https://scholar.google.co.in/citations?user=pFiwhAIAAAAJ" target="_blank" class="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+                <svg class="w-8 h-8 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/>
+                </svg>
+                <div>
+                    <div class="font-semibold">Google Scholar</div>
+                    <div class="text-sm text-gray-600">Publications & Citations</div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+            <a href="https://www.researchgate.net/profile/Nitin-Auluck" target="_blank" class="flex items-center p-4 bg-green-50 rounded-lg hover:bg-green-100 transition">
+                <svg class="w-8 h-8 text-green-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 00-.112.437 8.365 8.365 0 00-.078.53 9.928 9.928 0 00-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.121 0 000 1.535c0 .388.002.718.01.99.007.272.018.489.035.65.016.161.04.277.07.35.030.072.065.12.106.143.041.024.1.035.18.035.08 0 .148-.014.204-.04.056-.027.099-.065.129-.115.029-.05.05-.110.06-.18.012-.07.017-.148.017-.235 0-.087-.005-.18-.017-.28a4.61 4.61 0 00-.06-.335 2.327 2.327 0 00-.129-.344 1.053 1.053 0 00-.204-.28 0.769 0.769 0 00-.18-.143c-.041-.024-.1-.035-.18-.035-.08 0-.139.011-.18.035a0.769 0.769 0 00-.204.143 1.053 1.053 0 00-.129.28 2.327 2.327 0 00-.06.344c-.012.1-.017.193-.017.28 0 .087.005.165.017.235.01.07.031.13.06.18.030.05.073.088.129.115.056.026.124.04.204.04.08 0 .139-.011.18-.035.041-.023.076-.071.106-.143.030-.073.054-.189.07-.35.017-.161.028-.378.035-.65.008-.272.01-.602.01-.99a31.121 31.121 0 000-1.535c0-.395.002-.734.013-1.016.01-.282.028-.545.05-.727.023-.182.05-.346.078-.53.029-.184.067-.346.112-.437.243-.744.65-1.303 1.213-1.68C18.078.19 18.768 0 19.586 0z"/>
+                </svg>
+                <div>
+                    <div class="font-semibold">ResearchGate</div>
+                    <div class="text-sm text-gray-600">Research Network</div>
+                </div>
+            </a>
+            
+            <a href="https://sites.google.com/iitrpr.ac.in/nauluck/home" target="_blank" class="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
+                <svg class="w-8 h-8 text-gray-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                <div>
+                    <div class="font-semibold">Google Sites</div>
+                    <div class="text-sm text-gray-600">Personal Website</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+    </main>
+    <footer class="bg-gray-900 text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Research Areas</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="research.html" class="hover:text-yellow-400">Distributed Systems</a></li>
+                        <li><a href="research.html" class="hover:text-yellow-400">Edge Computing</a></li>
+                        <li><a href="research.html" class="hover:text-yellow-400">Real-Time Systems</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="publications.html" class="hover:text-yellow-400">Publications</a></li>
+                        <li><a href="opportunities.html" class="hover:text-yellow-400">Join Us</a></li>
+                        <li><a href="contact.html" class="hover:text-yellow-400">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">IIT Ropar</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="https://www.iitrpr.ac.in/" target="_blank" class="hover:text-yellow-400">Main Website</a></li>
+                        <li><a href="https://cse.iitrpr.ac.in/" target="_blank" class="hover:text-yellow-400">CSE Department</a></li>
+                        <li><a href="https://www.iitrpr.ac.in/admissions" target="_blank" class="hover:text-yellow-400">Admissions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">POEMS Lab</h3>
+                    <p class="text-sm text-gray-300">Parallel, Operating, Edge, and Mobile Systems Lab — leading research in distributed systems, edge computing, and real-time technologies.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2024 POEMS Lab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
