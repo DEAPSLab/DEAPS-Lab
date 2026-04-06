@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - POEMS Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .amazon-btn { display:inline-block; background:#facc15; color:#000; font-weight:600; padding:0.5rem 1.5rem; border-radius:0.375rem; transition:background 0.2s; box-shadow:0 2px 4px rgba(0,0,0,0.15); }
+        .amazon-btn:hover { background:#eab308; }
+        .amazon-btn-secondary { display:inline-block; background:#e5e7eb; color:#1f2937; font-weight:600; padding:0.5rem 1.5rem; border-radius:0.375rem; border:1px solid #d1d5db; transition:background 0.2s; }
+        .amazon-btn-secondary:hover { background:#d1d5db; }
+        .nav-link { background:#0ea5e9; color:#fff; padding:0.5rem 0.75rem; font-size:1rem; font-weight:500; border-radius:0.375rem; transition:background 0.2s; display:inline-block; }
+        .nav-link:hover { background:#0284c7; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="bg-gray-800 text-white text-xs py-2">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div>Welcome to POEMS Lab - Parallel, Operating, Edge, and Mobile Systems Lab</div>
+            <div class="flex space-x-4">
+                <a href="contact.html" class="bg-sky-500 text-white px-2 py-1 rounded hover:bg-sky-600">Contact Us</a>
+                <a href="opportunities.html" class="bg-sky-500 text-white px-2 py-1 rounded hover:bg-sky-600">Join Our Team</a>
+            </div>
+        </div>
+    </div>
+    <nav class="bg-sky-400 shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <img src="static/images/poem logo.jpg" alt="POEMS Lab Logo" class="w-8 h-8" />
+                    <span class="font-bold text-xl text-white">POEMSLab</span>
+                </a>
+                <div class="flex-1 max-w-2xl mx-8">
+                    <div class="relative">
+                        <input type="text" placeholder="Search research, publications, members..." class="w-full py-2 px-4 rounded-md border-2 border-yellow-400 focus:outline-none focus:border-yellow-500">
+                        <button class="absolute right-0 top-0 h-full px-4 bg-yellow-400 hover:bg-yellow-500 rounded-r-md">
+                            <svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4 flex-wrap">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                    <a href="research.html" class="nav-link">Research</a>
+                    <a href="members.html" class="nav-link">Team</a>
+                    <a href="https://www.google.com/maps/place/Indian+Institute+Of+Technology-Ropar" target="_blank" class="nav-link flex items-center">Location</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-sky-400 border-t border-sky-300">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex items-center space-x-4 py-2 flex-wrap">
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="nitin-auluck.html" class="nav-link">Prof. Nitin Auluck</a>
+                    <a href="opportunities.html" class="nav-link">Opportunities</a>
+                    <a href="news-events.html" class="nav-link">News &amp; Events</a>
+                    <a href="resources.html" class="nav-link">Resources</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="alumni.html" class="nav-link">Alumni</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+<!-- Hero Section -->
+<div class="bg-gradient-to-r from-blue-900 to-gray-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h1 class="text-5xl font-bold mb-6">Research <span class="text-yellow-400">Publications</span></h1>
+        <p class="text-xl text-blue-200 max-w-3xl mx-auto">
+            Comprehensive list of research publications by Dr. Nitin Auluck and his research team at IIT Ropar.
+        </p>
+    </div>
+</div>
+
+<!-- Publications List -->
+<div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="mb-8">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold text-gray-900">Publications (100+ papers)</h2>
+            <div class="flex space-x-4">
+                <a href="https://scholar.google.co.in/citations?user=pFiwhAIAAAAJ" target="_blank" class="amazon-btn text-sm">Google Scholar Profile</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="space-y-4">
+        <!-- Publication 1 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Improving the schedulability of real-time tasks using fog computing
+            </h3>
+            <p class="text-gray-700 mb-2">K Fizza, N Auluck, A Azim</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Transactions on Services Computing</span> 15 (1), 372-385 | IF: 5.80
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 106</span>
+                <span class="text-gray-600">2019</span>
+            </div>
+        </div>
+
+        <!-- Publication 2 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Scheduling real-time security aware tasks in fog networks
+            </h3>
+            <p class="text-gray-700 mb-2">A Singh, N Auluck, O Rana, A Jones, S Nepal</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Transactions on Services Computing</span> 14 (6), 1981-1994 | IF: 5.80
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 65</span>
+                <span class="text-gray-600">2019</span>
+            </div>
+        </div>
+
+        <!-- Publication 3 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Contention aware energy efficient scheduling on heterogeneous multiprocessors
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, S Betha, B Mangipudi, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Transactions on Parallel and Distributed Systems</span> 26 (5), 1251-1264 | IF: 6.00
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 50</span>
+                <span class="text-gray-600">2014</span>
+            </div>
+        </div>
+
+        <!-- Publication 4 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                A survey on evaluating the quality of autonomic internet of things applications
+            </h3>
+            <p class="text-gray-700 mb-2">K Fizza, A Banerjee, PP Jayaraman, N Auluck, R Ranjan, K Mitra, ...</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Communications Surveys & Tutorials</span> 25 (1), 567-590 | IF: 46.70
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 40</span>
+                <span class="text-gray-600">2022</span>
+            </div>
+        </div>
+
+        <!-- Publication 5 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                RT-SANE Real Time Security Aware Scheduling on the Network Edge
+            </h3>
+            <p class="text-gray-700 mb-2">A Singh, N Auluck, O Rana, A Jones, S Nepal</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Proceedings of the 10th International Conference on Utility and Cloud Computing</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 40</span>
+                <span class="text-gray-600">2017</span>
+            </div>
+        </div>
+
+        <!-- Publication 6 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Load balancing aware scheduling algorithms for fog networks
+            </h3>
+            <p class="text-gray-700 mb-2">A Singh, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Software: Practice and Experience</span> 50 (11), 2012-2030 | IF: 2.70
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 30</span>
+                <span class="text-gray-600">2020</span>
+            </div>
+        </div>
+
+        <!-- Publication 7 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Faster ota updates in smart vehicles using fog computing
+            </h3>
+            <p class="text-gray-700 mb-2">K Fizza, N Auluck, A Azim, MA Maruf, A Singh</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Proceedings of the 12th IEEE/ACM International Conference on Utility and Cloud Computing</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 27</span>
+                <span class="text-gray-600">2019</span>
+            </div>
+        </div>
+
+        <!-- Publication 8 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                IoT-QWatch: A novel framework to support the development of quality-aware autonomic IoT applications
+            </h3>
+            <p class="text-gray-700 mb-2">K Fizza, PP Jayaraman, A Banerjee, N Auluck, R Ranjan</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Internet of Things Journal</span> 10 (20), 17666-17679 | IF: 8.90
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 22</span>
+                <span class="text-gray-600">2023</span>
+            </div>
+        </div>
+
+        <!-- Publication 9 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Faster fog computing based over-the-air vehicular updates: A transfer learning approach
+            </h3>
+            <p class="text-gray-700 mb-2">M Al Maruf, A Singh, A Azim, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Transactions on Services Computing</span> 15 (6), 3245-3259 | IF: 5.80
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 22</span>
+                <span class="text-gray-600">2021</span>
+            </div>
+        </div>
+
+        <!-- Publication 10 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                ToSiM-IoT: Towards a sustainable optimisation of machine learning tasks in Internet of Things
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaushal, O Almurshed, A Muftah, N Auluck, O Rana</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Internet of Things Journal</span> | IF: 8.90
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">2025</span>
+            </div>
+        </div>
+
+        <!-- Publication 11 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Enhancing performance of machine learning tasks on edge-cloud infrastructures: A cross-domain Internet of Things based framework
+            </h3>
+            <p class="text-gray-700 mb-2">O Almurshed, A Kaushal, S Meshoul, A Muftah, O Almoghamis, I Petri, ...</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Future Generation Computer Systems</span> 166, 107696
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 1</span>
+                <span class="text-gray-600">2025</span>
+            </div>
+        </div>
+
+        <!-- Publication 12 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Dynamic Real-Time Scheduling on Distributed Hierarchical Fog Networks
+            </h3>
+            <p class="text-gray-700 mb-2">A Sharma, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2024 IEEE 31st International Conference on High Performance Computing, Data and Analytics Workshop</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hidden Publications (Initially Hidden) -->
+    <div id="hidden-publications" class="space-y-4 mt-4" style="display: none;">
+        <!-- Publication 13 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                PASHE: Privacy aware scheduling in a heterogeneous fog environment
+            </h3>
+            <p class="text-gray-700 mb-2">K Fizza, N Auluck, O Rana, L Bittencourt</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2018 IEEE 6th international conference on future Internet of Things and Cloud</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 21</span>
+                <span class="text-gray-600">2018</span>
+            </div>
+        </div>
+
+        <!-- Publication 14 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Machine learning-based acoustic repellent system for protecting crops against wild animal attacks
+            </h3>
+            <p class="text-gray-700 mb-2">D Ranparia, G Singh, A Rattan, H Singh, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2020 IEEE 15th International Conference on Industrial and Information Systems</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 20</span>
+                <span class="text-gray-600">2020</span>
+            </div>
+        </div>
+
+        <!-- Publication 15 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Incentivising resource sharing in edge computing applications
+            </h3>
+            <p class="text-gray-700 mb-2">I Petri, OF Rana, J Bignell, S Nepal, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">International Conference on the Economics of Grids, Clouds, Systems, and Services</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 16</span>
+                <span class="text-gray-600">2017</span>
+            </div>
+        </div>
+
+        <!-- Publication 16 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Real-time scheduling on hierarchical heterogeneous fog networks
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaur, N Auluck, O Rana</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Transactions on Services Computing</span> 16 (2), 1358-1372 | IF: 5.80
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 14</span>
+                <span class="text-gray-600">2022</span>
+            </div>
+        </div>
+
+        <!-- Publication 17 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                A scalable task duplication based algorithm for improving the schedulability of real-time heterogeneous multiprocessor systems
+            </h3>
+            <p class="text-gray-700 mb-2">N Auluck, DP Agrawal</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2003 International Conference on Parallel Processing Workshops</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 14</span>
+                <span class="text-gray-600">2003</span>
+            </div>
+        </div>
+
+        <!-- Publication 18 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                DVFS and duplication based scheduling for optimizing power and performance in heterogeneous multiprocessors
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Proceedings of the High Performance Computing Symposium</span>, 1-8
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 13</span>
+                <span class="text-gray-600">2014</span>
+            </div>
+        </div>
+
+        <!-- Publication 19 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Performance analysis of apache openwhisk across the edge-cloud continuum
+            </h3>
+            <p class="text-gray-700 mb-2">A Alabbas, A Kaushal, O Almurshed, O Rana, N Auluck, C Perera</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2023 IEEE 16th International Conference on Cloud Computing (CLOUD)</span>, 401-407
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 12</span>
+                <span class="text-gray-600">2023</span>
+            </div>
+        </div>
+
+        <!-- Publication 20 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Real‐time trust aware scheduling in fog‐cloud systems
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaur, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Concurrency and Computation: Practice and Experience</span> 35 (10), e7680 | IF: 1.50
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 12</span>
+                <span class="text-gray-600">2023</span>
+            </div>
+        </div>
+
+        <!-- Publication 21 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Restricted duplication based milp formulation for scheduling task graphs on unrelated parallel machines
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, B Mangipudi, S Betha, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2012 Fifth International Symposium on Parallel Architectures, Algorithms and Programming</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 10</span>
+                <span class="text-gray-600">2012</span>
+            </div>
+        </div>
+
+        <!-- Publication 22 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Multi-criteria decision-making for heterogeneous multiprocessor scheduling
+            </h3>
+            <p class="text-gray-700 mb-2">S Saroja, T Revathi, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">International Journal of Information Technology & Decision Making</span> 17 (05) | IF: 1.80
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 9</span>
+                <span class="text-gray-600">2018</span>
+            </div>
+        </div>
+
+        <!-- Publication 23 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Real time scheduling on heterogeneous multiprocessor systems—A survey
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2016 Fourth International Conference on Parallel, Distributed and Grid Computing</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 9</span>
+                <span class="text-gray-600">2016</span>
+            </div>
+        </div>
+
+        <!-- Publication 24 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Reliability driven, non-preemptive real time scheduling of periodic tasks on heterogeneous systems
+            </h3>
+            <p class="text-gray-700 mb-2">N Auluck, DP Agrawal</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Fourteenth IASTED International Conference on Parallel and Distributed Computing and Systems</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 8</span>
+                <span class="text-gray-600">2002</span>
+            </div>
+        </div>
+
+        <!-- Publication 25 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Optimizing DNN training with pipeline model parallelism for enhanced performance in embedded systems
+            </h3>
+            <p class="text-gray-700 mb-2">M Al Maruf, A Azim, N Auluck, M Sahi</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Journal of Parallel and Distributed Computing</span> 190, 104890 | IF: 4.00
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 6</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+
+        <!-- Publication 26 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                An edge-cloud infrastructure for weed detection in precision agriculture
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaushal, O Almurshed, A Alabbas, N Auluck, O Rana</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2023 IEEE Intl Conf on Dependable, Autonomic and Secure Computing</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 6</span>
+                <span class="text-gray-600">2023</span>
+            </div>
+        </div>
+
+        <!-- Publication 27 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                A non-linear time series based artificial intelligence model to predict outcome in cardiac surgery
+            </h3>
+            <p class="text-gray-700 mb-2">S Konar, N Auluck, R Ganesan, AK Goyal, T Kaur, M Sahi, T Samra, ...</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Health and Technology</span> 12 (6), 1169-1181 | IF: 2.80
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 6</span>
+                <span class="text-gray-600">2022</span>
+            </div>
+        </div>
+
+        <!-- Publication 28 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Energy aware scheduling on heterogeneous multiprocessors with DVFS and duplication
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, A Gujral, H Singh, JU Singh, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2016 17th International Conference on Parallel and Distributed Computing, Applications and Technologies</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 5</span>
+                <span class="text-gray-600">2016</span>
+            </div>
+        </div>
+
+        <!-- Publication 29 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Enhancing the schedulability of Real-Time heterogeneous networks of workstations (NOWs)
+            </h3>
+            <p class="text-gray-700 mb-2">N Auluck, DP Agrawal</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">IEEE Transactions on Parallel and Distributed Systems</span> 20 (11), 1586-1599 | IF: 6.00
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 5</span>
+                <span class="text-gray-600">2008</span>
+            </div>
+        </div>
+
+        <!-- Publication 30 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Scheduling algorithms for truly heterogeneous hierarchical fog networks
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaur, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Software: Practice and Experience</span> 52 (11), 2411-2438 | IF: 2.70
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 4</span>
+                <span class="text-gray-600">2022</span>
+            </div>
+        </div>
+
+        <!-- Publication 31 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                An intrusion detection system on fog architecture
+            </h3>
+            <p class="text-gray-700 mb-2">M Sahi, M Soni, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2021 IEEE 18th International Conference on Mobile Ad Hoc and Smart Systems</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 4</span>
+                <span class="text-gray-600">2021</span>
+            </div>
+        </div>
+
+        <!-- Publication 32 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Resource efficient allocation of fog nodes for faster vehicular ota updates
+            </h3>
+            <p class="text-gray-700 mb-2">M Al Maruf, A Singh, A Azim, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2020 International Symposium on Networks, Computers and Communications</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 4</span>
+                <span class="text-gray-600">2020</span>
+            </div>
+        </div>
+
+        <!-- Publication 33 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Controlled duplication scheduling of real-time precedence tasks on heterogeneous multiprocessors
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Workshop on Job Scheduling Strategies for Parallel Processing</span>, 3-21
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 4</span>
+                <span class="text-gray-600">2015</span>
+            </div>
+        </div>
+
+        <!-- Publication 34 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                An integrated scheduling algorithm for precedence constrained hard and soft Real-Time tasks on heterogeneous multiprocessors
+            </h3>
+            <p class="text-gray-700 mb-2">N Auluck, DP Agrawal</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">International Conference on Embedded and Ubiquitous Computing</span>, 196-206
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 4</span>
+                <span class="text-gray-600">2004</span>
+            </div>
+        </div>
+
+        <!-- Publication 35 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                SHIELD: A secure heuristic integrated environment for load distribution in rural-AI
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaushal, O Almurshed, O Almoghamis, A Alabbas, N Auluck, ...</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Future Generation Computer Systems</span> 161, 286-301
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">Q1 Journal</span>
+                <span class="text-gray-600">Cited by 2</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+
+        <!-- Publication 36 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Dynamic hierarchical intrusion detection task offloading in IoT edge networks
+            </h3>
+            <p class="text-gray-700 mb-2">M Sahi, N Auluck, A Azim, MA Maruf</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Software: Practice and Experience</span> 54 (11), 2249-2271 | IF: 2.70
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">Cited by 2</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+
+        <!-- Publication 37 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                FeaMod: Enhancing Modularity, Adaptability and Code Reuse in Embedded Software Development
+            </h3>
+            <p class="text-gray-700 mb-2">M Al Maruf, A Azim, N Auluck, M Sahi</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2024 IEEE International Conference on Information Reuse and Integration for Data Science</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 2</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+
+        <!-- Publication 38 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                A fog based building fire evacuation framework
+            </h3>
+            <p class="text-gray-700 mb-2">A Kaur, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Proceedings of the Australasian Computer Science Week Multiconference</span>, 1-10
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 2</span>
+                <span class="text-gray-600">2020</span>
+            </div>
+        </div>
+
+        <!-- Publication 39 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Machine Learning-Based Workload Prediction in Vehicular Platooning Systems
+            </h3>
+            <p class="text-gray-700 mb-2">P Bhardwaj, N Auluck, A Azim</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2024 34th International Conference on Collaborative Advances in Software and Hardware</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 1</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+
+        <!-- Publication 40 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Towards safe online machine learning model training and inference on edge networks
+            </h3>
+            <p class="text-gray-700 mb-2">M Al Maruf, A Azim, N Auluck, M Sahi</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2023 International Conference on Machine Learning and Applications</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 1</span>
+                <span class="text-gray-600">2023</span>
+            </div>
+        </div>
+
+        <!-- Publication 41 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                An IoT-Based Intelligent Irrigation Management System
+            </h3>
+            <p class="text-gray-700 mb-2">M Sahi, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Edge Analytics: Select Proceedings of 26th International Conference—ADCOM</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 1</span>
+                <span class="text-gray-600">2022</span>
+            </div>
+        </div>
+
+        <!-- Publication 42 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                A framework for partitioning support vector machine models on edge architectures
+            </h3>
+            <p class="text-gray-700 mb-2">M Sahi, M Al Maruf, A Azim, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2021 IEEE International Conference on Smart Computing (SMARTCOMP)</span>, 293-298
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 1</span>
+                <span class="text-gray-600">2021</span>
+            </div>
+        </div>
+
+        <!-- Publication 43 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                A multiobjective genetic algorithm to improve power and performance of heterogeneous multiprocessors
+            </h3>
+            <p class="text-gray-700 mb-2">J Singh, MK Pandey, E Katiyar, R Tulasyan, V Gupta, N Auluck</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">2016 Fourth International Conference on Parallel, Distributed and Grid Computing</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded">Conference</span>
+                <span class="text-gray-600">Cited by 1</span>
+                <span class="text-gray-600">2016</span>
+            </div>
+        </div>
+
+        <!-- Publication 44 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Application of concept drift detection and adaptive framework for non linear time series data from cardiac surgery
+            </h3>
+            <p class="text-gray-700 mb-2">R Ganesan, T Kaur, A Mittal, M Sahi, S Konar, T Samra, GD Puri, ...</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Computational Intelligence</span> 40 (3), e12658 | IF: 1.70
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Q2 Journal</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+
+        <!-- Publication 45 -->
+        <div class="bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition duration-200">
+            <h3 class="text-lg font-semibold text-blue-600 mb-2 hover:underline cursor-pointer">
+                Pluto: Platooning Through Uncertainty-Aware Task Offloading
+            </h3>
+            <p class="text-gray-700 mb-2">P Bhardwaj, N Auluck, A Azim</p>
+            <p class="text-sm text-gray-600 mb-3">
+                <span class="font-medium">Available at SSRN 5335272</span>
+            </p>
+            <div class="flex items-center space-x-4 text-sm">
+                <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded">Preprint</span>
+                <span class="text-gray-600">2024</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Load More Button -->
+    <div class="text-center mt-12">
+        <button id="load-more-btn" class="amazon-btn-secondary px-8 py-3" onclick="loadMorePublications()">Load More Publications</button>
+        <p id="publication-count" class="text-gray-600 mt-4">Showing 12 of 45 publications</p>
+    </div>
+    
+    <script>
+        let publicationsLoaded = false;
+        
+        function loadMorePublications() {
+            const hiddenPublications = document.getElementById('hidden-publications');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            const publicationCount = document.getElementById('publication-count');
+            
+            if (!publicationsLoaded) {
+                // Show hidden publications
+                hiddenPublications.style.display = 'block';
+                
+                // Update button text and count
+                loadMoreBtn.textContent = 'Show Less Publications';
+                publicationCount.textContent = 'Showing 45 of 45 publications';
+                
+                // Smooth scroll to new content
+                setTimeout(() => {
+                    hiddenPublications.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 100);
+                
+                publicationsLoaded = true;
+            } else {
+                // Hide publications
+                hiddenPublications.style.display = 'none';
+                
+                // Reset button text and count
+                loadMoreBtn.textContent = 'Load More Publications';
+                publicationCount.textContent = 'Showing 12 of 45 publications';
+                
+                // Scroll back to top of publications
+                document.querySelector('.space-y-4').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                
+                publicationsLoaded = false;
+            }
+        }
+    </script>
+    
+    <!-- Statistics -->
+    <div class="bg-blue-50 rounded-lg p-8 mt-16">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Publication Statistics</h3>
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">45+</div>
+                <div class="text-gray-700">Total Publications</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">1500+</div>
+                <div class="text-gray-700">Total Citations</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">25+</div>
+                <div class="text-gray-700">Q1 Journals</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">15+</div>
+                <div class="text-gray-700">Years Active (Since 2010)</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+    <footer class="bg-gray-900 text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Research Areas</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="research.html" class="hover:text-yellow-400">Distributed Systems</a></li>
+                        <li><a href="research.html" class="hover:text-yellow-400">Edge Computing</a></li>
+                        <li><a href="research.html" class="hover:text-yellow-400">Real-Time Systems</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="publications.html" class="hover:text-yellow-400">Publications</a></li>
+                        <li><a href="opportunities.html" class="hover:text-yellow-400">Join Us</a></li>
+                        <li><a href="contact.html" class="hover:text-yellow-400">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">IIT Ropar</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="https://www.iitrpr.ac.in/" target="_blank" class="hover:text-yellow-400">Main Website</a></li>
+                        <li><a href="https://cse.iitrpr.ac.in/" target="_blank" class="hover:text-yellow-400">CSE Department</a></li>
+                        <li><a href="https://www.iitrpr.ac.in/admissions" target="_blank" class="hover:text-yellow-400">Admissions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">POEMS Lab</h3>
+                    <p class="text-sm text-gray-300">Parallel, Operating, Edge, and Mobile Systems Lab — leading research in distributed systems, edge computing, and real-time technologies.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2024 POEMS Lab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
