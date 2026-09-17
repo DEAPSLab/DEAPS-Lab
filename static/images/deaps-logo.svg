@@ -1,0 +1,38 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="deapsBg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </radialGradient>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="60" cy="60" r="57" fill="url(#deapsBg)" stroke="#facc15" stroke-width="3" />
+
+  <!-- distributed / edge / parallel node network -->
+  <g stroke="#facc15" stroke-width="2" stroke-linecap="round">
+    <line x1="60" y1="46" x2="60" y2="22" />
+    <line x1="60" y1="46" x2="36" y2="38" />
+    <line x1="60" y1="46" x2="84" y2="38" />
+    <line x1="60" y1="46" x2="40" y2="64" />
+    <line x1="60" y1="46" x2="80" y2="64" />
+  </g>
+
+  <!-- edge/distributed/parallel nodes -->
+  <circle cx="36" cy="38" r="4.5" fill="#facc15" />
+  <circle cx="84" cy="38" r="4.5" fill="#facc15" />
+  <circle cx="40" cy="64" r="4.5" fill="#facc15" />
+  <circle cx="80" cy="64" r="4.5" fill="#facc15" />
+
+  <!-- AI node (distinct color) -->
+  <circle cx="60" cy="22" r="5.5" fill="#e879f9" />
+  <path d="M60 18.5 L61.2 21 L63.8 21.4 L61.9 23.2 L62.4 25.8 L60 24.5 L57.6 25.8 L58.1 23.2 L56.2 21.4 L58.8 21 Z" fill="#fff" />
+
+  <!-- scheduler hub with clock hands, coordinating the network -->
+  <circle cx="60" cy="46" r="10" fill="#ffffff" stroke="#2563eb" stroke-width="2.5" />
+  <line x1="60" y1="46" x2="60" y2="40" stroke="#0f172a" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="46" x2="65" y2="46" stroke="#0f172a" stroke-width="2" stroke-linecap="round" />
+
+  <text x="60" y="90" text-anchor="middle" font-size="19" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-weight="bold" letter-spacing="1">DEAPS</text>
+  <text x="60" y="105" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#bae6fd">IIT Ropar</text>
+</svg>

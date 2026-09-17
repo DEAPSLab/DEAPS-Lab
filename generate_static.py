@@ -2,7 +2,7 @@ import os, re
 
 NAV = """    <div class="bg-gray-800 text-white text-xs py-2">
         <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            <div>Welcome to POEMS Lab - Parallel, Operating, Edge, and Mobile Systems Lab</div>
+            <div>Welcome to DEAPS Lab - Distributed, Edge, AI, Parallel, and Scheduling Systems Lab</div>
             <div class="flex space-x-4">
                 <a href="contact.html" class="bg-sky-500 text-white px-2 py-1 rounded hover:bg-sky-600">Contact Us</a>
                 <a href="opportunities.html" class="bg-sky-500 text-white px-2 py-1 rounded hover:bg-sky-600">Join Our Team</a>
@@ -13,8 +13,8 @@ NAV = """    <div class="bg-gray-800 text-white text-xs py-2">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex items-center justify-between h-16">
                 <a href="index.html" class="flex items-center space-x-3">
-                    <img src="static/images/logo.svg" alt="POEMS Lab Logo" class="w-8 h-8" />
-                    <span class="font-bold text-xl text-white">POEMSLab</span>
+                    <img src="static/images/deaps-logo.svg" alt="DEAPS Lab Logo" class="w-8 h-8" />
+                    <span class="font-bold text-xl text-white">DEAPSLab</span>
                 </a>
                 <div class="flex-1 max-w-2xl mx-8">
                     <div class="relative">
@@ -75,12 +75,12 @@ FOOTER = """    <footer class="bg-gray-900 text-white py-12 mt-16">
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-lg mb-4">POEMS Lab</h3>
-                    <p class="text-sm text-gray-300">Parallel, Operating, Edge, and Mobile Systems Lab — leading research in distributed systems, edge computing, and real-time technologies.</p>
+                    <h3 class="font-bold text-lg mb-4">DEAPS Lab</h3>
+                    <p class="text-sm text-gray-300">Distributed, Edge, AI, Parallel, and Scheduling Systems Lab — leading research in distributed systems, edge computing, and real-time technologies.</p>
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-                <p>&copy; 2024 POEMS Lab. All rights reserved.</p>
+                <p>&copy; 2024 DEAPS Lab. All rights reserved.</p>
             </div>
         </div>
     </footer>"""
@@ -105,22 +105,22 @@ HEAD = """<!DOCTYPE html>
 
 TAIL = "</body>\n</html>"
 
-templates_dir = "poemslab/templates"
+templates_dir = "deapslab/templates"
 docs_dir = "docs"
 
 # Map template filename -> output filename, title
 pages = {
-    "about.html":       ("about.html",       "About - POEMS Lab"),
-    "nitin_auluck.html":("nitin-auluck.html", "Dr. Nitin Auluck - POEMS Lab"),
-    "members.html":     ("members.html",      "Team Members - POEMS Lab"),
-    "research.html":    ("research.html",     "Research - POEMS Lab"),
-    "publications.html":("publications.html", "Publications - POEMS Lab"),
-    "opportunities.html":("opportunities.html","Opportunities - POEMS Lab"),
-    "news_events.html": ("news-events.html",  "News & Events - POEMS Lab"),
-    "resources.html":   ("resources.html",    "Resources - POEMS Lab"),
-    "gallery.html":     ("gallery.html",      "Gallery - POEMS Lab"),
-    "alumni.html":      ("alumni.html",       "Alumni - POEMS Lab"),
-    "contact.html":     ("contact.html",      "Contact - POEMS Lab"),
+    "about.html":       ("about.html",       "About - DEAPS Lab"),
+    "nitin_auluck.html":("nitin-auluck.html", "Dr. Nitin Auluck - DEAPS Lab"),
+    "members.html":     ("members.html",      "Team Members - DEAPS Lab"),
+    "research.html":    ("research.html",     "Research - DEAPS Lab"),
+    "publications.html":("publications.html", "Publications - DEAPS Lab"),
+    "opportunities.html":("opportunities.html","Opportunities - DEAPS Lab"),
+    "news_events.html": ("news-events.html",  "News & Events - DEAPS Lab"),
+    "resources.html":   ("resources.html",    "Resources - DEAPS Lab"),
+    "gallery.html":     ("gallery.html",      "Gallery - DEAPS Lab"),
+    "alumni.html":      ("alumni.html",       "Alumni - DEAPS Lab"),
+    "contact.html":     ("contact.html",      "Contact - DEAPS Lab"),
 }
 
 url_map = {

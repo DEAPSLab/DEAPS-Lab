@@ -14,7 +14,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'poemslab',
+    'deapslab',
 ]
 
 MIDDLEWARE = [
@@ -27,12 +27,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'poemslab.urls'
+ROOT_URLCONF = 'deapslab.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'poemslab' / 'templates'],
+        'DIRS': [BASE_DIR / 'deapslab' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -53,5 +53,5 @@ DATABASES = {
 }
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'poemslab' / 'static']
+STATICFILES_DIRS = [BASE_DIR / 'deapslab' / 'static']
 STATIC_ROOT = BASE_DIR / 'staticfiles'

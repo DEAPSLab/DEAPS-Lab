@@ -1,6 +1,6 @@
-# POEMS Lab Django Website
+# DEAPS Lab Django Website
 
-A Django-based website for POEMS Lab.
+A Django-based website for DEAPS Lab.
 
 ## Setup & Running the Website
 
@@ -33,7 +33,7 @@ A Django-based website for POEMS Lab.
 
 5. **Navigate to Project Directory**
    ```bash
-   cd poemslab
+   cd deapslab
    ```
 
 6. **Run Database Migrations**
