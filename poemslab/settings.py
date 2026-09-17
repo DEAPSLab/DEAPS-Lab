@@ -14,7 +14,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rafedgelab',
+    'poemslab',
 ]
 
 MIDDLEWARE = [
@@ -27,12 +27,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'rafedgelab.urls'
+ROOT_URLCONF = 'poemslab.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'rafedgelab' / 'templates'],
+        'DIRS': [BASE_DIR / 'poemslab' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -53,5 +53,5 @@ DATABASES = {
 }
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'rafedgelab' / 'static']
+STATICFILES_DIRS = [BASE_DIR / 'poemslab' / 'static']
 STATIC_ROOT = BASE_DIR / 'staticfiles'

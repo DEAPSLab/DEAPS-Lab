@@ -105,7 +105,7 @@ HEAD = """<!DOCTYPE html>
 
 TAIL = "</body>\n</html>"
 
-templates_dir = "rafedgelab/templates"
+templates_dir = "poemslab/templates"
 docs_dir = "docs"
 
 # Map template filename -> output filename, title

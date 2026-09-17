@@ -12,6 +12,6 @@
     <path d="M60 42 L60 78" stroke="#FFD700" stroke-width="3" />
     <path d="M42 60 L78 60" stroke="#FFD700" stroke-width="3" />
   </g>
-  <text x="60" y="70" text-anchor="middle" font-size="22" font-family="Arial, Helvetica, sans-serif" fill="#0f172a" font-weight="bold">RAFEDGE</text>
+  <text x="60" y="70" text-anchor="middle" font-size="20" font-family="Arial, Helvetica, sans-serif" fill="#0f172a" font-weight="bold">POEMS</text>
   <text x="60" y="100" text-anchor="middle" font-size="12" font-family="Arial, Helvetica, sans-serif" fill="#2563eb">IIT Ropar</text>
 </svg>

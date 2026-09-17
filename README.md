@@ -1,6 +1,6 @@
-# Rafedge Lab Django Website
+# POEMS Lab Django Website
 
-A Django-based website for Rafedge Lab.
+A Django-based website for POEMS Lab.
 
 ## Setup & Running the Website
 
@@ -33,7 +33,7 @@ A Django-based website for Rafedge Lab.
 
 5. **Navigate to Project Directory**
    ```bash
-   cd rafedgelab
+   cd poemslab
    ```
 
 6. **Run Database Migrations**
